@@ -1,0 +1,41 @@
+# ─── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── SQLite database files ───────────────────────────────────────────────────
+# The .db file is runtime state — regenerate with `npm run seed`
+# .db-shm is the shared-memory WAL index (auto-created by SQLite)
+# .db-wal is the write-ahead log (auto-created by SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+# ─── Environment / secrets ───────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Runtime / OS artefacts ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor / IDE ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Optional: keep package-lock for reproducible installs ───────────────────
+# Uncomment the line below only if you prefer yarn.lock / pnpm-lock instead:
+# package-lock.json
